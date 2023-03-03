@@ -1,7 +1,29 @@
 # GitHub Codespaces ♥️ Ruby on Rails
 
-Welcome to your shiny new Codespace running Rails! We've got everything fired up and running for you to explore Rails.
+## How to start
 
-You've got a blank canvas to work on from a git perspective as well. There's a single initial commit with the what you're seeing right now - where you go from here is up to you!
+Run the following commands before starting the server
 
-Everything you do here is contained within this one codespace. There is no repository on GitHub yet. If and when you’re ready you can click "Publish Branch" and we’ll create your repository and push up your project. If you were just exploring then and have no further need for this code then you can simply delete your codespace and it's gone forever.
+1. Install all the gems
+``` bundle install ```
+2. Create Database and migrate
+``` rails db:create ``` 
+``` rails db:migrate ```
+3. Populate table with data
+``` rails db:seed ```
+
+### To login Squlite Console
+
+``` sqlite3 db/development.sqlite3 ```
+
+To run query
+
+``` SELECT * FROM "movies"; ```
+
+To Start rails console
+
+``` rails c ```
+
+To Start rails server
+
+``` rails s ```
