@@ -4,6 +4,8 @@
 
 Run the following commands before starting the server
 
+> **NOTE:** This project is using Squlite3 Database.
+
 1. Install all the gems
 ``` bundle install ```
 2. Create Database and migrate
